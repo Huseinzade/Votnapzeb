@@ -1,7 +1,7 @@
 package com.example.demo.controller;
 
-import com.example.demo.Contact;
-import com.example.demo.ContactService;
+import com.example.demo.model.Contact;
+import com.example.demo.service.ContactService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
