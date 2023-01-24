@@ -33,7 +33,7 @@ public class DemoApplication {
 		post2.setTitle("This is my third post!");
 		post2.setContent("Ismail claimed that arabic dicks are very painful and tasty.");
 		postService.savePost(post2);
-
+    
 		Post post3 = new Post();
 		post2.setTitle("This is my third post!");
 		post2.setContent("Ismail claimed that arabic dicks are very painful and tasty.");

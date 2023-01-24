@@ -1,8 +1,10 @@
 package com.example.demo.service;
+
 import com.example.demo.model.Post;
 import com.example.demo.repository.PostRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
+
 import java.util.List;
 
 @Service
