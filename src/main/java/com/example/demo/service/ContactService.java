@@ -1,5 +1,6 @@
-package com.example.demo;
-
+package com.example.demo.service;
+import com.example.demo.model.Contact;
+import com.example.demo.repository.ContactRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
