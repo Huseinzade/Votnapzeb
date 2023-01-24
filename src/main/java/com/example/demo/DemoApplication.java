@@ -26,10 +26,15 @@ public class DemoApplication {
 
 		Post post1 = new Post();
 		post1.setTitle("This is my second Post1!!@$!@");
-		post1.setContent("Eldar loves arabic dicks.");
+		post1.setContent("Eldar loves arabic disks.");
 		postService.savePost(post1);
 
 		Post post2 = new Post();
+		post2.setTitle("This is my third post!");
+		post2.setContent("Ismail claimed that arabic dicks are very painful and tasty.");
+		postService.savePost(post2);
+    
+		Post post3 = new Post();
 		post2.setTitle("This is my third post!");
 		post2.setContent("Ismail claimed that arabic dicks are very painful and tasty.");
 		postService.savePost(post2);
